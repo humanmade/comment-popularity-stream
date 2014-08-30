@@ -24,7 +24,7 @@ class WP_Stream_Connector_Comment_Popularity extends WP_Stream_Connector {
 	 * @return string Translated connector label
 	 */
 	public static function get_label() {
-		return __( 'Comment Popularity', 'comment-popularity' );
+		return __( 'Comment Popularity', 'comment-popularity-stream' );
 	}
 
 	/**
