@@ -112,7 +112,7 @@ class WP_Stream_Connector_Comment_Popularity_Wrapper {
 			);
 		}
 
-		if ( ! class_exists( 'HMN_Comment_Popularity' ) ) {
+		if ( ! class_exists( 'CommentPopularity\HMN_Comment_Popularity' ) ) {
 			$notices[] = array(
 				'message'  => sprintf( __( '<strong>Stream Comment Popularity Connector</strong> requires the <a href="%1$s" target="_blank">Comment Popularity</a> plugin to be installed and activated.', 'stream-connector-comment-popularity' ), esc_url( 'http://wordpress.org/plugins/stream/' ) ),
 				'is_error' => true,
